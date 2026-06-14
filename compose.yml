@@ -77,7 +77,7 @@ services:
 #      - traefik.http.routers.whoami.tls=true
 #      - traefik.http.routers.whoami.tls.certresolver=cloudflare
 
-  matrae:
+  mantrae:
     image: ghcr.io/mizuchilabs/mantrae:0.8.9
     container_name: mantrae
     restart: unless-stopped
